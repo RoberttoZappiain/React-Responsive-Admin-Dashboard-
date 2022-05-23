@@ -2,12 +2,15 @@ import React from 'react';
 import { BiChevronRight } from "react-icons/bi";
 import { RiGroupLine } from "react-icons/ri";
 import Title from "./Title";
+
 export default function StoreVisits() {
+  
   const data = [
     {title: "Masculino", value: 38},
     {title: "Femenino", value: 50},
     {title: "Visitas por dia", value: 88},    
   ];
+
   return <div className='storeVistis'>
       <Title title="Visitas del sitio" subtitle="Detalles acerca de las visitas en tu sitio " />
       <div className="anayltics">

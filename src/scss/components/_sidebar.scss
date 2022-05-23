@@ -2,7 +2,8 @@
     position: fixed;
     width: 15rem;
     height: 100%;
-    background-color: black;
+    background: rgb(34,21,21);
+    background: linear-gradient(253deg, rgba(34,21,21,1) 0%, rgba(0,0,0,1) 100%);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
